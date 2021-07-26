@@ -16,7 +16,7 @@ Excellent Monitoring Sistem menggunakan bot telegram digunakan untuk memantau an
 
 ![clusterbaru4](https://user-images.githubusercontent.com/56797161/126750299-2b94a8db-4e75-4b2e-a38a-c669606ade0a.png)
 
-   - ### **Cek antrian**
+   - ### **Cek Antrian**
      - Untuk cek antrian dapat menggunakan script ```/cekantrian@eik_marbot server_cluster```, dari perintah tersebut akan menampilkan 10 antrian terbanyak pada pada server cluster dan melihat informasi detail antrian melalui link yang sudah diberikan, dari detail link tersebut juga bisa dilihat untuk akun mana yang dicurigai sebagai spam, indikasinya jika 1 email antriannya lebih dari 20, dan mencari tujuan email yang alamat nya tidak jelas.
 
 ![clusterbaru1](https://user-images.githubusercontent.com/56797161/126746856-205618b6-8555-4ce2-bde9-be7435c51de5.png)
