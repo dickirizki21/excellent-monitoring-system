@@ -8,7 +8,7 @@ Excellent Monitoring Sistem menggunakan bot telegram digunakan untuk memantau an
 5. Jika ID sudah didaftarkan oleh team support, pendaftaran sudah berhasil dan selesai 
 
 ## Cara Menggunakan Excellent Monitoring Sistem
-## Cek antrian.
+### Cek antrian.
 
 Untuk cek antrian dapat menggunakan script ```/cekantrian@eik_marbot server_cluster```, dari perintah tesebut akan menampilkan 10 antrian terbanyak pada pada server cluster dan melihat informasi detail antrian melalui link yang sudah diberikan, dari detail link tersebut juga bisa dilihat untuk akun mana yang dicurigai sebagai spam, caranya jika 1 email antriannya lebih dari 20, mencari tujuan email yang alamat nya tidak jelas.
 
