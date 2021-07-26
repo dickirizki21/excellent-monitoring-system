@@ -1,20 +1,43 @@
-# Excellent Monitoring System Menggunakan Bot Telegram
-### Pendaftaran untuk akses ke telegram excellent monitoring stsrem
-1. Kontak team support untuk di joikan ke grup telegram monitoring system
-2. Jalankan perintah pertama ```/cekantrian@eik_marbot nama-klaster``` untuk mendapatkan akses ID.
+# Excellent Monitoring Sistem Menggunakan Bot Telegram
+Excellent Monitoring Sistem menggunakan bot telegram digunakan untuk memantau antrian - antrian di cluster server yang dimiliki oleh excellent, dan ketika antrian penuh ada action yang harus dilakukan, action tersebut menggunakan bot telegram dan berikut adalah langkah langkah untuk dapat menggunkan excellent monitoring sistem bot telegram.
+## Cara Install dan Join Excellent Monitoring Sistem 
+1. Kontak team support untuk di joinkan ke grup **telegram excellent monitoring system**.
+2. Setelah join coba jalankan perintah pertama ```/cekantrian@eik_marbot nama-klaster``` untuk mendapatkan akses ID.
 ![cluster](https://user-images.githubusercontent.com/56797161/126603715-5fdb5df6-30a2-49ac-aa6a-9b64f471136b.png)
-4. Jika ID akses sudah didapatkan, infokan kepada team support untuk didaftarkan. 
+4. Jika ID akses sudah didapatkan, infokan kepada team support untuk didaftarkan.
+5. Jika ID sudah didaftarkan oleh team support, pendaftaran sudah berhasil dan selesai 
 
-### Lock akun email spam di cluster (kecuali klaster 4)
-1. cek cluster menggunakan script ```/cekantrian@eik_marbot + klaster yang ingin di cek```.
-![cluster1](https://user-images.githubusercontent.com/56797161/126604190-fc7c0aaf-87d9-4d99-952a-8e71226d2ed7.png)
-![cluster 3](https://user-images.githubusercontent.com/56797161/126605172-7f9d4881-e3b2-43fa-b575-c66314635a45.png)
-2. dan di cek isi emailnya, apablila ada email dengan jumlah kirim per email ada yang lebih dari 20 menggunakan script ```/postcat@eik_marbot klaster + email address```, cek tujuan email, apabila tujuan emailnya normal cek isi emailnya menggunakan link yang sudah tersedia dibawagnya.jika body email tidak jelas maka lakukan block akun spam menggunakan script ```/spamclean@eik_marbot + email```.
+## Cara Menggunakan Excellent Monitoring Sistem
+## Cek antrian.
 
-![cluster4](https://user-images.githubusercontent.com/56797161/126606396-12fda728-3090-4396-85a4-dc1d917ddb58.png)
+Untuk cek antrian dapat menggunakan script ```/cekantrian@eik_marbot server_cluster```, dari perintah tesebut akan menampilkan 10 antrian terbanyak pada pada server cluster dan melihat informasi detail antrian melalui link yang sudah diberikan, dari detail link tersebut juga bisa dilihat untuk akun mana yang dicurigai sebagai spam, caranya jika 1 email antriannya lebih dari 20, mencari tujuan email yang alamat nya tidak jelas.
 
-#### Lock akun selesai
+![clusterbaru1](https://user-images.githubusercontent.com/56797161/126746856-205618b6-8555-4ce2-bde9-be7435c51de5.png)
 
-### Clean antrian di cluster 4
-1. nah untuk kluster 4 ini jika bot telegram menginfokan antrian lebih dari 200 maka jalankan perintah ```/clearsgln4@eik_marbot```
-![cluster5](https://user-images.githubusercontent.com/56797161/126608664-75f95945-33a3-4351-8109-9339d135ed29.png)
+## Cek Isi Email Sender
+
+Setelah mendapatkan list antrian, kamu bisa melakukan cek isi email dari sender untuk mengecek apakah itu email spam atau bukan, kamu dapat menggunakan script ```/postcat@eik_marbot nama_cluster alamat_email```, dari sini juga kamu dapat mengecek tujuan email untuk alamat emailnya valid atau tidak, dan isi dari emailnya jelas/tidak.
+![clusterbaru2](https://user-images.githubusercontent.com/56797161/126747455-d5a095c4-fb98-4e08-901d-c2bf9082affd.png)
+
+## Lock Akun Spam
+Jika ada akun yang didapatkan melakukan spam maka kamu dapat melakukan lock terhadap akun email tersebut dengan menggunakan script ```/spamclean@eik_marbot email-spam```.
+
+![clusterbaru3](https://user-images.githubusercontent.com/56797161/126748536-193d95e7-08b1-4d28-a45c-d4183e401968.png)
+
+
+## Hapus spam KAI dapat menggunakan Script ```/kailockpass email-spam```
+## Mengaktifkan kembali account relay dapat menggunakan script```/reactive@eik_marbot account-relay```
+## Lock, Change Pass dan hapur antrian pada EMS dapat menggunakan script ```/lockpassems@eik_marbot nama_server nama_email```
+## Cek Service pada cluster dapat menggunakan script ```/serviceems@eik_marbot nama_server service```
+## Hapus antrian email per Server dapat menggunakan script ```/pfdel@eik_marbot nama_cluster alamat_email```
+## Hapus Antrian email pada cluster dapat menggunakan script```/batchpfdel@eik_marbot alamat_email``` 
+## Cek antrian pada EMS dapat menggunakan script```/antrianems@eik_marbot nama_server```
+## Cek Service EMS dapat menggunakan script```/serviceems@eik_marbot nama_server service```
+## Cek account lock dapat menggunakan script```/ceklock@eik_marbot```
+## Change single pass pol dapat menggunakan script```/polpass nrp```
+
+
+## Penangan Cluster Server 4 Excellent
+## Penanganan Cluster 4 Excellent ini, bot telegram monitoring system akan memberitahu jumlah antrian secara berkala, jika jumlah antrian lebih dari 200, dan di cluster server 4, maka actionnya adalah clean antrian, bisa menggunakan script ```/clearsgln4@eik_marbot```
+
+![clusterbaru4](https://user-images.githubusercontent.com/56797161/126750299-2b94a8db-4e75-4b2e-a38a-c669606ade0a.png)
