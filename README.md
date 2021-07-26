@@ -25,19 +25,29 @@ Jika ada akun yang didapatkan melakukan spam maka kamu dapat melakukan lock terh
 ![clusterbaru3](https://user-images.githubusercontent.com/56797161/126748536-193d95e7-08b1-4d28-a45c-d4183e401968.png)
 
 
-## Hapus spam KAI dapat menggunakan Script ```/kailockpass email-spam```
-## Mengaktifkan kembali account relay dapat menggunakan script```/reactive@eik_marbot account-relay```
-## Lock, Change Pass dan hapur antrian pada EMS dapat menggunakan script ```/lockpassems@eik_marbot nama_server nama_email```
-## Cek Service pada cluster dapat menggunakan script ```/serviceems@eik_marbot nama_server service```
-## Hapus antrian email per Server dapat menggunakan script ```/pfdel@eik_marbot nama_cluster alamat_email```
-## Hapus Antrian email pada cluster dapat menggunakan script```/batchpfdel@eik_marbot alamat_email``` 
-## Cek antrian pada EMS dapat menggunakan script```/antrianems@eik_marbot nama_server```
-## Cek Service EMS dapat menggunakan script```/serviceems@eik_marbot nama_server service```
-## Cek account lock dapat menggunakan script```/ceklock@eik_marbot```
-## Change single pass pol dapat menggunakan script```/polpass nrp```
+## Hapus spam KAI 
+* Hapus spam KAI dapat menggunakan Script ```/kailockpass email-spam```
+## Mengaktifkan kembali account relay 
+* Mengaktifkan kembali account relay dapat menggunakan script```/reactive@eik_marbot account-relay```
+## Lock, Change Pass dan hapur antrian pada EMS 
+* Lock, Change Pass dan hapur antrian pada EMS dapat menggunakan script ```/lockpassems@eik_marbot nama_server nama_email```
+## Cek Service pada cluster 
+* Cek Service pada cluster  dapat menggunakan script ```/serviceems@eik_marbot nama_server service```
+## Hapus antrian email per Server 
+* Hapus antrian email per Server dapat menggunakan script ```/pfdel@eik_marbot nama_cluster alamat_email```
+## Hapus Antrian email pada cluster 
+* Hapus Antrian email pada cluster dapat menggunakan script```/batchpfdel@eik_marbot alamat_email``` 
+## Cek antrian pada EMS 
+* Cek antrian pada EMS dapat menggunakan script```/antrianems@eik_marbot nama_server```
+## Cek Service EMS 
+* Cek Service EMS dapat menggunakan script```/serviceems@eik_marbot nama_server service```
+## Cek account lock 
+* Cek account lock dapat menggunakan script```/ceklock@eik_marbot```
+## Change single pass pol 
+* Change single pass pol dapat menggunakan script```/polpass nrp```
 
 
 ## Penangan Cluster Server 4 Excellent
-## Penanganan Cluster 4 Excellent ini, bot telegram monitoring system akan memberitahu jumlah antrian secara berkala, jika jumlah antrian lebih dari 200, dan di cluster server 4, maka actionnya adalah clean antrian, bisa menggunakan script ```/clearsgln4@eik_marbot```
+* Penanganan Cluster 4 Excellent bot telegram monitoring system akan memberitahu jumlah antrian secara berkala, jika jumlah antrian lebih dari 200, dan di cluster server 4, maka actionnya adalah clean antrian, bisa menggunakan script ```/clearsgln4@eik_marbot```
 
 ![clusterbaru4](https://user-images.githubusercontent.com/56797161/126750299-2b94a8db-4e75-4b2e-a38a-c669606ade0a.png)
